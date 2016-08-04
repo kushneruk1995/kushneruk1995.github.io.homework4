@@ -1,0 +1,402 @@
+body {
+    background-image: url('../img/background.png');
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: 38px auto;
+    background: #fff;
+}
+
+.logo {
+    margin: 4px 20px 0 23px;
+    float: left;
+}
+
+.logo img {
+    float: left;
+}
+
+.merge-box {
+    width: 450px;
+    height: auto;
+    float: right;
+}
+
+.contacts {
+    float: right;
+}
+
+.contacts > ul {
+    margin: 9px 23px 0 0;
+    color: #68b4c7;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.contacts > ul > li {
+    color: #68b4c7;
+    font-family: Tahoma;
+    font-size: 13px;
+    line-height: 20px;
+    list-style: none;
+}
+
+.countries {
+    float: right;
+}
+
+.countries ul {
+    margin: 0;
+    padding: 15px 6px 0 0;
+    list-style: none;
+}
+
+.countries > ul > li {
+    display: inline-block;
+    padding: 11px 5px 0;
+}
+
+.countries > ul > li:nth-child(1) {
+    padding-right: 6px;
+}
+
+.countries > ul > li:nth-child(2) {
+    padding-right: 4px;
+}
+
+.countries > ul > li:nth-child(3) {
+    padding-right: 4px;
+}
+
+.countries > ul > li:nth-child(5) {
+    padding-right: 0;
+}
+
+.countries > ul > li:nth-child(6) {
+    padding-right: 22px;
+    padding-left: 0;
+}
+
+.countries a {
+    display: inline-block;
+    color: #329ab3;
+}
+
+.countries > a > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.countries p {
+    margin-top: -3px;
+    margin-bottom: 9px;
+    padding: 0;
+    color: #329ab3;
+    font-family: Tahoma;
+    font-size: 10px;
+    text-align: center;
+}
+
+.main-photo {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: -2px auto 0;
+    margin-top: -2px;
+    clear: both;
+}
+
+.main-photo img {
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+.central-panel {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin-top: -3px;
+    border-bottom: 1px solid #000;
+    background: #333;
+}
+
+.central-panel > ul > li {
+    display: inline-block;
+    position: relative;
+    font-family: Tahoma;
+    font-size: 14px;
+    list-style: none;
+}
+
+.central-panel > ul > li:nth-child(1) {
+    width: 175px;
+    padding: 2px 0 7px 5px;
+    text-align: center;
+}
+
+.central-panel > ul > li:nth-child(2) {
+    width: 145px;
+    padding: 1px 0 7px 1px;
+}
+
+.central-panel > ul > li:nth-child(3) {
+    width: 100px;
+    padding: 2px 0 7px 1px;
+}
+
+.central-panel > ul > li:nth-child(4) {
+    width: 100px;
+    padding: 2px 0 5px;
+    text-align: center;
+}
+
+.central-panel > ul > li:nth-child(5) {
+    width: 185px;
+    padding: 2px 0 5px 12px;
+    text-align: center;
+}
+
+.central-panel > ul > li:nth-child(6) {
+    width: 100px;
+    padding: 2px 0 5px 1px;
+    text-align: center;
+}
+
+.central-panel > ul > li:nth-child(7) {
+    width: 111px;
+    padding: 2px 0 5px 1px;
+    text-align: center;
+}
+
+.central-panel a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.central-panel .menu {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+.central-panel .submenu {
+    display: none;
+    position: absolute;
+    width: inherit;
+    background: #333;
+    font-family: Tahoma;
+    font-size: 14px;
+    list-style: none;
+}
+
+.submenu >ul>li {
+    padding: 3px 5px 0;
+}
+
+.menu li:hover .submenu {
+    display: block;
+    width: inherit;
+    margin: 0;
+    padding: 3px 5px 0;
+}
+
+.content {
+    width: 1000px;
+    height: auto;
+    float: left;
+    background: url('../img/fon.png') repeat-y;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 210px;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+    border-right: 1px solid #c7cacf;
+    background: #edeef0;
+}
+
+.left-column h1 {
+    margin: 0;
+    padding: 8px 0 0 24px;
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+}
+
+.left-column p {
+    margin: 0;
+    padding: 1px 0 0 16px;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.left-column>p:nth-child(4) {
+    margin-top: -2px;
+}
+
+.left-column>p:nth-child(5) {
+    margin-top: -2px;
+}
+
+.left-column>p:nth-child(6) {
+    margin-top: -2px;
+}
+
+.left-column>p:nth-child(7) {
+    margin-top: -2px;
+}
+
+.left-column>p:nth-child(8) {
+    margin-top: -2px;
+}
+
+.left-column>p:nth-child(9) {
+    margin-top: -2px;
+}
+
+.center-column {
+    width: 600px;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: left;
+}
+
+.right-column {
+    width: 208px;
+    margin-bottom: -20000px;
+    padding-bottom: 20000px;
+    float: right;
+    border-left: 1px solid #c7cacf;
+    background: #edeef0;
+}
+
+.right-column h1 {
+    margin: 0;
+    padding: 8px 0 0;
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+}
+
+.right-column p {
+    margin: 0;
+    padding: 2px 0 0 15px;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.right-column .first-column {
+    border-bottom: 1px solid #c7cacf;
+}
+
+.first-column>p:nth-child(2) {
+    margin-top: -2px;
+}
+
+.first-column>p:nth-child(3) {
+    margin-top: -3px;
+}
+
+.first-column>p:nth-child(4) {
+    margin-top: -4px;
+}
+
+.first-column>p:nth-child(5) {
+    margin-top: -4px;
+}
+
+.first-column>p:nth-child(6) {
+    margin-top: -2px;
+}
+
+.first-column>p:nth-child(7) {
+    margin-top: -3px;
+}
+
+.first-column>p:nth-child(8) {
+    margin-top: -2px;
+}
+
+.first-column>p:nth-child(9) {
+    margin-top: -4px;
+}
+
+.first-column>p:nth-child(10) {
+    margin-top: -3px;
+}
+
+.first-column>p:nth-child(11) {
+    margin-top: -3px;
+}
+
+.second-column>p:nth-child(1) {
+    margin-top: -4px;
+}
+
+.second-column>p:nth-child(2) {
+    margin-top: -2px;
+}
+
+.second-column>p:nth-child(3) {
+    margin-top: -3px;
+}
+
+.second-column>p:nth-child(4) {
+    margin-top: -4px;
+}
+
+.second-column>p:nth-child(5) {
+    margin-top: -4px;
+}
+
+.second-column>p:nth-child(6) {
+    margin-top: -2px;
+}
+
+.second-column>p:nth-child(7) {
+    margin-top: -3px;
+}
+
+.second-column>p:nth-child(8) {
+    margin-top: -2px;
+}
+
+.second-column>p:nth-child(9) {
+    margin-top: -4px;
+}
+
+.second-column>p:nth-child(10) {
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+    border-top: 3px solid #000;
+}
+
+.footer p {
+    margin: 0 0 0 4px;
+    padding: 5px 5px 0;
+    color: #cee3ec;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
